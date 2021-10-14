@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  /* height: 100px; */
+  margin: 0 auto;
+  background-color: grey;
+}
+header {
+  height: 200px;
+  background-color: yellow;
+}
+main {
+  background-color: tomato;
+}
+/* .col-left, 
+.col-right {
+  height: 500px;
+} */
+.col-left {
+  float: left;
+  width: 30%;
+  background-color: violet;
+}
+.col-right {
+  float: right;
+  width: 70%;
+  background-color:springgreen;
+}
+
+footer {
+  height: 100px;
+  background-color: lightblue;
+}
